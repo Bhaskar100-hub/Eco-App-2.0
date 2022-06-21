@@ -2,6 +2,6 @@
 
 Side Navigation Drawer Created using Empty Activity.
 
-## Refer outube Videos  
+## Refer youtube Videos  
 
 [Side Navigation](https://youtu.be/gzvjACH915A)
