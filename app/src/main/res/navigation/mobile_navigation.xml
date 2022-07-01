@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="wary.bhaskar.ecoapp20.ui.HomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_noixorgo"
+        android:name="wary.bhaskar.ecoapp20.ui.NoixorgoFragment"
+        android:label="@string/noixorgo"
+        tools:layout="@layout/fragment_noixorgo" />
+
+    <fragment
+        android:id="@+id/nav_events"
+        android:name="wary.bhaskar.ecoapp20.ui.EventsFragment"
+        android:label="@string/events"
+        tools:layout="@layout/fragment_events" />
+
+    <fragment
+        android:id="@+id/nav_blog"
+        android:name="wary.bhaskar.ecoapp20.ui.BlogFragment"
+        android:label="@string/blog"
+        tools:layout="@layout/fragment_blog" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="wary.bhaskar.ecoapp20.ui.GalleryFragment"
+        android:label="@string/gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_team"
+        android:name="wary.bhaskar.ecoapp20.ui.TeamFragment"
+        android:label="@string/team"
+        tools:layout="@layout/fragment_team" />
+</navigation>

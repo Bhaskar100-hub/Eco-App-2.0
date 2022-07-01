@@ -2,4 +2,19 @@
     <string name="app_name">Eco App 2.0</string>
     <string name="open">Open</string>
     <string name="close">Close</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="home">HOME</string>
+    <string name="noixorgo">NOIXORGO</string>
+    <string name="events">EVENTS</string>
+    <string name="blog">BLOG</string>
+    <string name="gallery">GALLERY</string>
+    <string name="team">TEAM</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

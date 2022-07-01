@@ -13,6 +13,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EcoApp20"
         tools:targetApi="31">
+
+        <activity android:name=".ui.Blog"
+            android:screenOrientation="portrait"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".ui.Events"
+            android:screenOrientation="portrait"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".ui.Gallery"
+            android:screenOrientation="portrait"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".ui.Home"
+            android:screenOrientation="portrait"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".ui.Noixorgo"
+            android:screenOrientation="portrait"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".ui.Team"
+            android:screenOrientation="portrait"
+            tools:ignore="Instantiatable" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
