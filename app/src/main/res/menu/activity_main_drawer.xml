@@ -12,11 +12,11 @@
                     android:title="@string/home"/>
                 <item
                     android:id="@+id/nav_noixorgo"
-                    android:icon="@drawable/noixorgo"
+                    android:icon="@drawable/ic_noixorgo"
                     android:title="@string/noixorgo" />
                 <item
                     android:id="@+id/nav_events"
-                    android:icon="@drawable/event"
+                    android:icon="@drawable/ic_event"
                     android:title="@string/events" />
                 <item
                     android:id="@+id/nav_blog"
@@ -24,23 +24,23 @@
                     android:title="@string/blog" />
                 <item
                     android:id="@+id/nav_gallery"
-                    android:icon="@drawable/ic_menu_gallery"
+                    android:icon="@drawable/ic_gallery"
                     android:title="@string/gallery" />
                 <item
                     android:id="@+id/nav_team"
-                    android:icon="@drawable/team"
+                    android:icon="@drawable/ic_team"
                     android:title="@string/team" />
             </menu>
         </item>
     </group>
 
     <group android:checkableBehavior="single">
-        <item android:title="Profile">
+        <item android:title="About">
             <menu>
                 <item
-                    android:id="@+id/nav_logIn"
-                    android:icon="@drawable/login"
-                    android:title="LogIn" />
+                    android:id="@+id/nav_developer"
+                    android:icon="@drawable/ic_developers"
+                    android:title="Developers" />
             </menu>
         </item>
     </group>
@@ -50,12 +50,12 @@
             <menu>
                 <item
                     android:id="@+id/nav_share"
-                    android:icon="@drawable/share"
+                    android:icon="@drawable/ic_share"
                     android:title="Share" />
 
                 <item
                     android:id="@+id/nav_rateUs"
-                    android:icon="@drawable/rate"
+                    android:icon="@drawable/ic_rate"
                     android:title="Rate Us" />
             </menu>
         </item>
